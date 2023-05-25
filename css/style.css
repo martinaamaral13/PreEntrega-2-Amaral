@@ -1,0 +1,195 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+
+body{
+font-family: 'IM Fell DW Pica', serif;
+font-family: 'Inter', sans-serif;
+text-align: center;
+background-image: url(../img/FONDO.png);
+color: #0E1C27;
+}
+
+/* Estilos del header */
+
+header {
+    height: 100px;
+    text-align: center;
+    background-color: #AC9EB8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #0E1C27;
+  }
+
+    /* Estilos merch */
+
+    .merch{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 40% 60%;
+      gap: 80px 30px;
+      color: #C3A2D3;
+    }
+
+    /* Estilos de Newsletter*/
+
+    body {
+        font-family: 'IM Fell DW Pica', serif;
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Contenido principal */
+
+    .container{
+        color: #C3A2D3;
+    }
+
+    .contacto form {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .contacto fieldset {
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .contacto legend {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .contacto label {
+        display: block;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .contacto input[type="text"],
+    .contacto input[type="email"] {
+        width: 25%;
+        padding: 10px;
+        font-size: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .contacto div:last-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacto input[type="reset"],
+    .contacto input[type="submit"] {
+        padding: 15px 20px;
+        font-size: 14px;
+        border: none;
+        background-color: #f2f2f2;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    /* Estilos TS Midnights */
+
+    main h2{
+        color: #C3A2D3;
+        font-size: 40px;
+    }
+
+    .boton{
+        color: #C3A2D3;
+        font-size: 40px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    /* MQ */
+    @media screen and (max-width: 600px) {
+        /* Estilos para dispositivos móviles con ancho máximo de 600px */
+        
+        header {
+            text-align: center;
+        }
+    
+        li {
+            position: sticky;
+            top: 20px;
+        }
+        
+        .merch {
+            /* Estilos para el contenedor en dispositivos móviles */
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, 20%);
+        }
+        
+        .merch img-uno {
+            /* Estilos para la imagen en dispositivos móviles */
+            grid-column: span 2;
+        }
+
+        .merch img-dos {
+            /* Estilos para la imagen en dispositivos móviles */
+            grid-column: span 2;
+        }
+
+        .merch img-tres {
+            /* Estilos para la imagen en dispositivos móviles */
+            grid-column: span 2;
+        }
+
+        .merch img-cuatro {
+            /* Estilos para la imagen en dispositivos móviles */
+            grid-column: span 2;
+        }
+    }
+
+   /* NAVBAR*/ 
+    .bg-custom {
+        background-color: #AC9EB8;
+      }
+
+    .navbar {
+        width: 100%;
+      }
+      
+     .navbar-nav {
+        width: 100%;
+      }
+      
+     .navbar-nav .nav-link {
+        width: 100%;
+        text-align: center;
+      }
+
+      main h3{
+        color: #C3A2D3;
+        font-size: 40px;
+      }
+
+
